@@ -9,8 +9,8 @@ Vue.use(RouterV);
 
 let routerign = new RouterV({
   routes:[
-    {path:"/" , name:"Login" , component: login},
-    {path:"/Login" , name:"Home", component: book},
+    {path:"/Login" , name:"Login" , component: login},
+    {path:"/" , name:"Home", component: book},
   ]
 });
 
