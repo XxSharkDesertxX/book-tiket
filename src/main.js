@@ -11,7 +11,8 @@ let routerign = new RouterV({
   routes:[
     {path:"/Login" , name:"Login" , component: login},
     {path:"/" , name:"Home", component: book},
-  ]
+  ],
+  mode:"history",
 });
 
 Vue.config.productionTip = false;
